@@ -1,0 +1,31 @@
+.site-content {
+	min-height: 600px;
+}
+
+.reset-page-top-space .site-content {
+	margin-top: 0;
+}
+
+.reset-page-bottom-space .site-content {
+	margin-bottom: 0;
+}
+
+body.single-post .site-content {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+body {
+	&:not(.reset-page-bottom-space) .site-content {
+		padding-bottom: var(--wp--preset--spacing--normal);
+	}
+
+	&:not(.reset-page-top-space):not(.single-post) .site-content {
+		padding-top: var(--wp--preset--spacing--normal);
+	}
+}
+
+.site-container {
+	padding-left: var(--wp--preset--spacing--normal);
+	padding-right: var(--wp--preset--spacing--normal);
+}

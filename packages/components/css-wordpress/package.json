@@ -1,0 +1,11 @@
+{
+	"name": "css-wordpress",
+	"private": true,
+	"version": "1.0.0",
+	"description": "CSS WordPress general styling helper for Confstack Projects",
+	"author": "WPShapers",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+}

@@ -1,0 +1,573 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/theme.json",
+	"version": 2,
+	"settings": {
+		"appearanceTools": true,
+		"useRootPaddingAwareAlignments": true,
+		"layout": {
+			"contentSize": "1228px",
+			"wideSize": "1550px"
+		},
+		"color": {
+			"custom": true,
+			"customDuotone": true,
+			"customGradient": true,
+			"defaultPalette": false,
+			"duotone": [],
+			"gradients": [],
+			"link": false,
+			"palette": [
+				{
+					"color": "#ffffff",
+					"name": "White",
+					"slug": "base"
+				},
+				{
+					"color": "#313131",
+					"name": "Black",
+					"slug": "contrast"
+				},
+				{
+					"color": "#FF5E39",
+					"name": "Call to action one",
+					"slug": "cta-one"
+				},
+				{
+					"color": "#FF9000",
+					"name": "Call to action two",
+					"slug": "cta-two"
+				},
+				{
+					"color": "#481F88",
+					"name": "Primary",
+					"slug": "primary"
+				},
+				{
+					"color": "#F6F7F8",
+					"name": "Light Gray",
+					"slug": "light"
+				},
+				{
+					"color": "#F0EDF5",
+					"name": "Light violet",
+					"slug": "light-two"
+				}
+			]
+		},
+		"spacing": {
+			"margin": true,
+			"padding": true,
+			"blockGap": true,
+			"customSpacingSize": true,
+			"spacingScale": {
+				"steps": 0
+			},
+			"spacingSizes": [
+				{
+					"name": "Reset",
+					"slug": "reset",
+					"size": "0"
+				},
+				{
+					"name": "Tiny",
+					"slug": "tiny",
+					"size": "6px"
+				},
+				{
+					"name": "Small",
+					"slug": "small",
+					"size": "12px"
+				},
+				{
+					"name": "Normal",
+					"slug": "normal",
+					"size": "24px"
+				},
+				{
+					"name": "Large",
+					"slug": "large",
+					"size": "60px"
+				},
+				{
+					"name": "Huge",
+					"slug": "huge",
+					"size": "80px"
+				}
+			],
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"customFontSize": true,
+			"lineHeight": true,
+			"textDecoration": true,
+			"textTransform": true,
+			"dropCap": false,
+			"fluid": true,
+			"fontStyle": true,
+			"fontWeight": true,
+			"fontSizes": [
+				{
+					"slug": "tiny",
+					"size": "0.75rem",
+					"name": "Tiny",
+					"fluid": false
+				},
+				{
+					"slug": "small",
+					"size": "0.875rem",
+					"name": "Small",
+					"fluid": false
+				},
+				{
+					"slug": "heading6",
+					"size": "1.25rem",
+					"name": "H6",
+					"fluid": {
+						"min": "1rem",
+						"max": "1.25rem"
+					}
+				},
+				{
+					"slug": "heading5",
+					"size": "1.625rem",
+					"name": "H5",
+					"fluid": {
+						"min": "1.25rem",
+						"max": "1.625rem"
+					}
+				},
+				{
+					"slug": "heading4",
+					"size": "2rem",
+					"name": "H4",
+					"fluid": {
+						"min": "1.5rem",
+						"max": "2rem"
+					}
+				},
+				{
+					"slug": "heading3",
+					"size": "2.375rem",
+					"name": "H3",
+					"fluid": {
+						"min": "1.75rem",
+						"max": "2.375rem"
+					}
+				},
+				{
+					"slug": "heading2",
+					"size": "3.625rem",
+					"name": "H2",
+					"fluid": {
+						"min": "2rem",
+						"max": "3.625rem"
+					}
+				},
+				{
+					"slug": "heading1",
+					"size": "4rem",
+					"name": "H1",
+					"fluid": {
+						"min": "2.375rem",
+						"max": "4rem"
+					}
+				},
+				{
+					"slug": "large",
+					"size": "5.25rem",
+					"name": "Large",
+					"fluid": {
+						"min": "3.375rem",
+						"max": "5.25rem"
+					}
+				}
+			],
+			"fontFamilies": [
+				{
+					"fontFamily": "Raleway,sans-serif",
+					"name": "Raleway",
+					"slug": "raleway",
+					"fontFace": [
+						{
+							"fontFamily": "Raleway",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/raleway/raleway-v28-latin-ext-200.woff2"
+							]
+						},
+						{
+							"fontFamily": "Raleway",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/raleway/raleway-v28-latin-ext-300.woff2"
+							]
+						},
+						{
+							"fontFamily": "Raleway",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/raleway/raleway-v28-latin-ext-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "Raleway",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/raleway/raleway-v28-latin-ext-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "Raleway",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/raleway/raleway-v28-latin-ext-600.woff2"
+							]
+						},
+						{
+							"fontFamily": "Raleway",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/raleway/raleway-v28-latin-ext-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Raleway",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/raleway/raleway-v28-latin-ext-800.woff2"
+							]
+						},
+						{
+							"fontFamily": "Raleway",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/raleway/raleway-v28-latin-ext-900.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Montserrat,sans-serif",
+					"name": "Montserrat",
+					"slug": "montserrat",
+					"fontFace": [
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./assets/fonts/montserrat/montserrat-v25-latin-ext-100.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/montserrat/montserrat-v25-latin-ext-200.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/montserrat/montserrat-v25-latin-ext-300.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/montserrat/montserrat-v25-latin-ext-400.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/montserrat/montserrat-v25-latin-ext-500.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/montserrat/montserrat-v25-latin-ext-600.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/montserrat/montserrat-v25-latin-ext-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/montserrat/montserrat-v25-latin-ext-800.woff2"
+							]
+						},
+						{
+							"fontFamily": "Montserrat",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/montserrat/montserrat-v25-latin-ext-900.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Merriweather,serif",
+					"name": "Merriweather",
+					"slug": "merriweather",
+					"fontFace": [
+						{
+							"fontFamily": "Merriweather",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/merriweather/merriweather-v30-latin-ext-300.woff2"
+							]
+						},
+						{
+							"fontFamily": "Merriweather",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/merriweather/merriweather-v30-latin-ext-400.woff2"
+							]
+						},
+						{
+							"fontFamily": "Merriweather",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/merriweather/merriweather-v30-latin-ext-700.woff2"
+							]
+						},
+						{
+							"fontFamily": "Merriweather",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./assets/fonts/merriweather/merriweather-v30-latin-ext-900.woff2"
+							]
+						}
+					]
+				},
+				{
+					"fontFamily": "Bai Jamjuree,sans-serif",
+					"name": "Bai Jamjuree",
+					"slug": "bai-jamjuree",
+					"fontFace": [
+						{
+							"fontFamily": "Bai Jamjuree",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./assets/fonts/bai-jamjuree/bai-jamjuree-v11-latin-ext_latin-200.woff"
+							]
+						},
+						{
+							"fontFamily": "Bai Jamjuree",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./assets/fonts/bai-jamjuree/bai-jamjuree-v11-latin-ext_latin-300.woff"
+							]
+						},
+						{
+							"fontFamily": "Bai Jamjuree",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/bai-jamjuree/bai-jamjuree-v11-latin-ext_latin-400.woff"
+							]
+						},
+						{
+							"fontFamily": "Bai Jamjuree",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/bai-jamjuree/bai-jamjuree-v11-latin-ext_latin-500.woff"
+							]
+						},
+						{
+							"fontFamily": "Bai Jamjuree",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/bai-jamjuree/bai-jamjuree-v11-latin-ext_latin-600.woff"
+							]
+						},
+						{
+							"fontFamily": "Bai Jamjuree",
+							"fontStretch": "normal",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/bai-jamjuree/bai-jamjuree-v11-latin-ext_latin-700.woff"
+							]
+						}
+					]
+				}
+			]
+		},
+		"blocks": {
+			"core/button": {
+				"border": {
+					"customRadius": false
+				}
+			}
+		},
+		"custom": {
+			"buttonRadius": "15px",
+			"buttonPadding": "calc(0.667em + 2px) calc(1.333em + 2px)"
+		}
+	},
+	"styles": {
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--bai-jamjuree)",
+			"lineHeight": "1.6"
+		},
+		"elements": {
+			"h1": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
+					"fontSize": "var(--wp--preset--font-size--heading-1)",
+					"lineHeight": "1.2"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				}
+			},
+			"h2": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
+					"fontSize": "var(--wp--preset--font-size--heading-2)",
+					"lineHeight": "1.2"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				}
+			},
+			"h3": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
+					"fontSize": "var(--wp--preset--font-size--heading-3)",
+					"lineHeight": "1.2"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				}
+			},
+			"h4": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
+					"fontSize": "var(--wp--preset--font-size--heading-4)",
+					"lineHeight": "1.2"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				}
+			},
+			"h5": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
+					"fontSize": "var(--wp--preset--font-size--heading-5)",
+					"lineHeight": "1.2"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				}
+			},
+			"h6": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--montserrat)",
+					"fontSize": "var(--wp--preset--font-size--heading-6)",
+					"lineHeight": "1.2"
+				},
+				"color": {
+					"text": "var(--wp--preset--color--primary)"
+				}
+			}
+		},
+		"spacing": {
+			"padding": {
+				"left": "var(--wp--preset--spacing--normal)",
+				"right": "var(--wp--preset--spacing--normal)"
+			}
+		}
+	},
+	"customTemplates": [
+		{
+			"name": "page-with-title",
+			"title": "Page with title",
+			"postTypes": [
+				"page"
+			]
+		}
+	],
+	"templateParts": [
+		{
+			"name": "call-to-action-section",
+			"title": "Call to action Section",
+			"area": "footer"
+		},
+		{
+			"name": "post-meta-horizontal",
+			"title": "Post meta horizontal",
+			"area": "uncategorized"
+		}
+	]
+}

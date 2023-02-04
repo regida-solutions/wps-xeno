@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_61" data-name="Rectangle 61" width="30" height="20" transform="translate(0.5)" fill="#fff"/>
+    </clipPath>
+  </defs>
+  <g id="Semi-colon_icon" data-name="Semi-colon icon" transform="translate(-0.5 -0.25)">
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="30" cy="30" r="30" transform="translate(0.5 0.25)" fill="#ff5e39"/>
+    <g id="Mask_Group_1" data-name="Mask Group 1" transform="translate(15 20.25)" clip-path="url(#clip-path)">
+      <g id="double_quote" data-name="double quote" transform="translate(2.149 0.164)">
+        <g id="right_x5F_quote">
+          <g id="Group_88" data-name="Group 88">
+            <path id="Path_136" data-name="Path 136" d="M9.907,99.813V89.907H3.3a6.611,6.611,0,0,1,6.6-6.6V80A9.918,9.918,0,0,0,0,89.907v9.907Z" transform="translate(16.511 -80)" fill="#fff"/>
+            <path id="Path_137" data-name="Path 137" d="M409.907,99.813V89.907h-6.6a6.611,6.611,0,0,1,6.6-6.6V80A9.918,9.918,0,0,0,400,89.907v9.907Z" transform="translate(-400 -80)" fill="#fff"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

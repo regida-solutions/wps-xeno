@@ -1,0 +1,71 @@
+{
+  "name": "xeno",
+  "version": "1.0.0",
+  "description": "A WordPress theme to be used with Gutenberg and full site editor.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/regida-solutions/xeno.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/regida-solutions/xeno/issues"
+  },
+  "homepage": "https://github.com/regida-solutions/xeno#readme",
+  "engines": {
+    "node": "18",
+    "npm": ">=8",
+    "yarn": "Please use npm"
+  },
+  "devDependencies": {
+    "@dekode/stylelint-config": "1.0.2",
+    "@wordpress/eslint-plugin": "13.10.0",
+    "@wordpress/scripts": "^25.3.0",
+    "autoprefixer": "10.4.13",
+    "cssnano": "5.1.14",
+    "classnames": "^2.3.1",
+    "components": "file:packages/components",
+    "dotenv": "16.0.3",
+    "eslint-plugin-prettier": "4.2.1",
+    "fast-glob": "3.2.12",
+    "husky": "7.0.4",
+    "ignore-emit-webpack-plugin": "2.0.6",
+    "lint-staged": "13.1.0",
+    "postcss": "8.4.21",
+    "postcss-custom-media": "9.1.1",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-import": "15.1.0",
+    "postcss-media-minmax": "5.0.0",
+    "postcss-mixins": "9.0.4",
+    "postcss-nested": "6.0.0",
+    "prettier": "2.8.3",
+    "resolve-url-loader": "5.0.0",
+    "shade-blend-color": "^1.0.0",
+    "webpack-remove-empty-scripts": "1.0.1",
+    "css-viewports": "file:packages/components/css-viewports",
+    "css-wodpress": "file:packages/components/css-wordpress"
+  },
+  "scripts": {
+    "prepare": "husky install",
+    "start": "wp-scripts start",
+    "build": "wp-scripts build",
+    "format": "wp-scripts format .",
+    "check-engines": "wp-scripts check-engines",
+    "lint": "npm run lint:js && npm run lint:css",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint-staged": "lint-staged"
+  },
+  "lint-staged": {
+    "*.css": [
+      "wp-scripts lint-style"
+    ],
+    "*.{js,ts,tsx}": [
+      "prettier --write",
+      "wp-scripts lint-js"
+    ]
+  },
+  "dependencies": {
+    "@wordpress/icons": "^9.17.0"
+  }
+}

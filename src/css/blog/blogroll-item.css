@@ -1,0 +1,33 @@
+.blogroll {
+	& .blogroll-article {
+		border-bottom-right-radius: 50px;
+		border-top-left-radius: 50px;
+		padding: 0;
+
+		& .blogroll-article-content {
+			padding: var(--wp--preset--spacing--normal);
+		}
+
+		& .wp-block-post-date {
+			margin-top: 0;
+		}
+
+		& .wp-block-avatar__image {
+			border-bottom-right-radius: 5px;
+			border-top-left-radius: 5px;
+		}
+
+		& .wp-block-post-featured-image {
+			height: 100%;
+
+			& .wp-post-image {
+				border-bottom-right-radius: 50px;
+				border-top-left-radius: 50px;
+			}
+
+			& a {
+				height: 100%;
+			}
+		}
+	}
+}

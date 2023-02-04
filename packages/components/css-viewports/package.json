@@ -1,0 +1,11 @@
+{
+	"name": "css-viewports",
+	"private": true,
+	"version": "1.0.0",
+	"description": "CSS helpers for Confstack Projects",
+	"author": "WPShapers",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	}
+}
