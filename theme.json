@@ -28,7 +28,7 @@
 					"slug": "contrast"
 				},
 				{
-					"color": "#FF5E39",
+					"color": "#2B2D42",
 					"name": "Call to action one",
 					"slug": "cta-one"
 				},
@@ -38,7 +38,7 @@
 					"slug": "cta-two"
 				},
 				{
-					"color": "#481F88",
+					"color": "#006BA6",
 					"name": "Primary",
 					"slug": "primary"
 				},
@@ -486,9 +486,6 @@
 					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontSize": "var(--wp--preset--font-size--heading-1)",
 					"lineHeight": "1.2"
-				},
-				"color": {
-					"text": "var(--wp--preset--color--primary)"
 				}
 			},
 			"h2": {
@@ -496,9 +493,6 @@
 					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontSize": "var(--wp--preset--font-size--heading-2)",
 					"lineHeight": "1.2"
-				},
-				"color": {
-					"text": "var(--wp--preset--color--primary)"
 				}
 			},
 			"h3": {
@@ -506,9 +500,6 @@
 					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontSize": "var(--wp--preset--font-size--heading-3)",
 					"lineHeight": "1.2"
-				},
-				"color": {
-					"text": "var(--wp--preset--color--primary)"
 				}
 			},
 			"h4": {
@@ -516,9 +507,6 @@
 					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontSize": "var(--wp--preset--font-size--heading-4)",
 					"lineHeight": "1.2"
-				},
-				"color": {
-					"text": "var(--wp--preset--color--primary)"
 				}
 			},
 			"h5": {
@@ -526,9 +514,6 @@
 					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontSize": "var(--wp--preset--font-size--heading-5)",
 					"lineHeight": "1.2"
-				},
-				"color": {
-					"text": "var(--wp--preset--color--primary)"
 				}
 			},
 			"h6": {
@@ -536,9 +521,6 @@
 					"fontFamily": "var(--wp--preset--font-family--montserrat)",
 					"fontSize": "var(--wp--preset--font-size--heading-6)",
 					"lineHeight": "1.2"
-				},
-				"color": {
-					"text": "var(--wp--preset--color--primary)"
 				}
 			}
 		},
