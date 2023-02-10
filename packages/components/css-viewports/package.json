@@ -2,7 +2,7 @@
 	"name": "css-viewports",
 	"private": true,
 	"version": "1.0.0",
-	"description": "CSS helpers for Confstack Projects",
+	"description": "CSS viewports for WordPress",
 	"author": "WPShapers",
 	"main": "index.js",
 	"scripts": {

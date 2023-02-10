@@ -7,7 +7,7 @@
 
 declare( strict_types=1 );
 
-namespace Confstack\MetaFields;
+namespace Xeno\MetaFields;
 
 add_action( 'init', __NAMESPACE__ . '\\page_post_meta' );
 

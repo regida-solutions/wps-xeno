@@ -2,7 +2,7 @@
 	"name": "css-wordpress",
 	"private": true,
 	"version": "1.0.0",
-	"description": "CSS WordPress general styling helper for Confstack Projects",
+	"description": "CSS WordPress general styling helpers",
 	"author": "WPShapers",
 	"main": "index.js",
 	"scripts": {
