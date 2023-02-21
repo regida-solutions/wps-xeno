@@ -1,0 +1,26 @@
+.wps-grid-column,
+.wps-card {
+	&.is-style-shadow-hover {
+		transition: all 0.3s ease-in-out;
+
+		&:hover {
+			box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.1);
+			transform: translateY(-3px);
+		}
+	}
+
+	&.is-style-bordered {
+		border: 2px solid currentColor;
+	}
+
+	&.is-style-highlighted {
+		box-shadow: 0 0 32px 0 rgba(0, 0, 0, 0.1);
+		transform: translateY(-6px);
+		transition: all 0.3s ease-in-out;
+
+		&:hover {
+			box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+			transform: translateY(0);
+		}
+	}
+}

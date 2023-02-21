@@ -1,1 +1,4 @@
 /* blocks.css */
+@import "core-latest-posts.css";
+@import "wps-navigation.css";
+@import "wps-grid-and-card-column.css";

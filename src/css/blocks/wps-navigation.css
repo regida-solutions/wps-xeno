@@ -1,0 +1,15 @@
+.wps-navigation-menu .menu-item.call-to-action {
+	background-color: var(--wp--preset--color--cta-one);
+	filter: drop-shadow(1px 0 0.7rem rgba(0, 0, 0, 0.1));
+	margin-left: auto;
+	transition: filter 500ms ease-in-out;
+
+	&:hover {
+		filter: saturate(2.2) grayscale(0.1) drop-shadow(1px 0 0.7rem rgba(0, 0, 0, 0.3));
+	}
+
+	& a {
+		color: var(--wp--preset--color--base);
+		padding: 0.5rem 1rem;
+	}
+}

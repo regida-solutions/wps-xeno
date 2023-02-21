@@ -1,0 +1,21 @@
+.wp-block-latest-posts {
+	list-style: none;
+	margin: 0;
+
+	& li {
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+		border-top: none;
+
+		& a {
+			color: currentColor;
+			display: block;
+			padding: 0.5em 0.5rem;
+			text-decoration: none;
+			transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+		}
+
+		&:hover a {
+			padding-left: 0.8em;
+		}
+	}
+}
