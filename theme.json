@@ -15,7 +15,7 @@
 			"defaultPalette": false,
 			"duotone": [],
 			"gradients": [],
-			"link": false,
+			"link": true,
 			"palette": [
 				{
 					"color": "#ffffff",
