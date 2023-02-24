@@ -36,3 +36,9 @@
 		filter: saturate(2.2) grayscale(0.1);
 	}
 }
+
+.gform_wrapper.gravity-theme .gfield_consent_description,
+.gform_wrapper.gravity-theme .field_description_below .gfield_consent_description {
+	border: 0;
+	overflow-y: auto;
+}
