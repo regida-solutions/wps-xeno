@@ -10,11 +10,6 @@
 	margin-bottom: 0;
 }
 
-body.single-post .site-content {
-	margin-bottom: 0;
-	margin-top: 0;
-}
-
 body {
 	&:not(.reset-page-bottom-space) .site-content {
 		padding-bottom: var(--wp--preset--spacing--normal);
