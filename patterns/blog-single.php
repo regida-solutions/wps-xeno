@@ -1,4 +1,14 @@
-<!-- wp:template-part {"slug":"header","tagName":"header"} /-->
+<?php
+/**
+ * Title: Blog Single
+ * Slug: xeno/blog-single
+ * Categories: xeno-blog
+ *
+ * @package Xeno
+ */
+
+declare( strict_types=1 );
+?>
 
 <!-- wp:group {"tagName":"main","className":"site-content","layout":{"type":"constrained"}} -->
 <main class="wp-block-group site-content">
@@ -6,4 +16,3 @@
 	<!-- wp:post-content {"layout":{"type":"constrained","contentSize":"890px","wideSize":"1550px"}} /-->
 </main>
 <!-- /wp:group -->
-<!-- wp:template-part {"slug":"footer","tagName":"footer"} /-->

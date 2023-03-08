@@ -1,7 +1,7 @@
 <?php
 /**
- * Title: Blog feed
- * Slug: xeno/blog-feed
+ * Title: Latest posts
+ * Slug: xeno/latest-posts
  * Categories: xeno-content
  *
  * @package Xeno

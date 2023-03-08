@@ -17,26 +17,6 @@
 	border: 1px solid #ccc;
 }
 
-.gform_button.button {
-	--gravity-form-button-background: var(--wp--preset--color--cta-one);
-	--gravity-form-button-text: #fff;
-	background-color: var(--gravity-form-button-background);
-	border: 0;
-	border-radius: var(--wp--custom--button-radius) 0;
-	color: var(--gravity-form-button-text);
-	cursor: pointer;
-	filter: drop-shadow(1px 0 0.5rem rgba(0, 0, 0, 0.2));
-	font-size: 1em;
-	padding: var(--wp--custom--button-padding);
-	text-decoration: none;
-	transition: filter 0.15s ease-in-out;
-
-	&:hover {
-		border-color: var(--gravity-form-button-background-h);
-		filter: saturate(2.2) grayscale(0.1);
-	}
-}
-
 .gform_wrapper.gravity-theme .gfield_consent_description,
 .gform_wrapper.gravity-theme .field_description_below .gfield_consent_description {
 	border: 0;

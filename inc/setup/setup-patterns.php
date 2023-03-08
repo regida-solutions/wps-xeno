@@ -22,8 +22,8 @@ function register_pattern_category(): void {
 	register_block_pattern_category( 'xeno-call-to-action', [
 		'label' => __( 'Call to actions', 'xeno' ),
 	] );
-	register_block_pattern_category( 'blog-feed', [
-		'label' => __( 'Blog feeds', 'xeno' ),
+	register_block_pattern_category( 'xeno-blog', [
+		'label' => __( 'Blog', 'xeno' ),
 	] );
 	register_block_pattern_category( 'misc', [
 		'label' => __( 'Miscellaneous', 'xeno' ),

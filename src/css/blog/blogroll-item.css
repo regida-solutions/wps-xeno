@@ -1,7 +1,5 @@
 .blogroll {
 	& .blogroll-article {
-		border-bottom-right-radius: 50px;
-		border-top-left-radius: 50px;
 		padding: 0;
 
 		& .blogroll-article-content {
@@ -19,11 +17,6 @@
 
 		& .wp-block-post-featured-image {
 			height: 100%;
-
-			& .wp-post-image {
-				border-bottom-right-radius: 50px;
-				border-top-left-radius: 50px;
-			}
 
 			& a {
 				height: 100%;
