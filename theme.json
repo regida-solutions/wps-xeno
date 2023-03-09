@@ -181,11 +181,11 @@
 				},
 				{
 					"slug": "large",
-					"size": "5.25rem",
+					"size": "3.4rem",
 					"name": "Large",
 					"fluid": {
-						"min": "3.375rem",
-						"max": "5.25rem"
+						"min": "2.2rem",
+						"max": "3.4rem"
 					}
 				}
 			],
