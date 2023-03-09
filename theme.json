@@ -131,52 +131,52 @@
 					"name": "H6",
 					"fluid": {
 						"min": "1rem",
-						"max": "1.25rem"
+						"max": "1.2rem"
 					}
 				},
 				{
 					"slug": "heading5",
-					"size": "1.625rem",
+					"size": "1.63rem",
 					"name": "H5",
 					"fluid": {
-						"min": "1.25rem",
-						"max": "1.625rem"
+						"min": "1.2rem",
+						"max": "1.63rem"
 					}
 				},
 				{
 					"slug": "heading4",
-					"size": "2rem",
+					"size": "1.9rem",
 					"name": "H4",
 					"fluid": {
-						"min": "1.5rem",
-						"max": "2rem"
+						"min": "1.4rem",
+						"max": "1.9rem"
 					}
 				},
 				{
 					"slug": "heading3",
-					"size": "2.375rem",
+					"size": "2.2rem",
 					"name": "H3",
 					"fluid": {
-						"min": "1.75rem",
-						"max": "2.375rem"
+						"min": "1.6rem",
+						"max": "2.2rem"
 					}
 				},
 				{
 					"slug": "heading2",
-					"size": "3.625rem",
+					"size": "2.4rem",
 					"name": "H2",
 					"fluid": {
-						"min": "2rem",
-						"max": "3.625rem"
+						"min": "1.8rem",
+						"max": "2.4rem"
 					}
 				},
 				{
 					"slug": "heading1",
-					"size": "4rem",
+					"size": "2.8rem",
 					"name": "H1",
 					"fluid": {
-						"min": "2.375rem",
-						"max": "4rem"
+						"min": "2rem",
+						"max": "2.8rem"
 					}
 				},
 				{
