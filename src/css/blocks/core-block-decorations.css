@@ -25,18 +25,18 @@
 
 	&.is-style-wave {
 		position: relative;
-		--background-position: 1px 100%;
+		--background-position: 0 calc(100% + 1px);
 
 		@media (min-width: 2000px) {
-			--background-position: 1px 120%;
+			--background-position: 0 120%;
 		}
 
 		@media (min-width: 2500px) {
-			--background-position: 1px 135%;
+			--background-position: 0 135%;
 		}
 
 		@media (min-width: 3000px) {
-			--background-position: 1px 157%;
+			--background-position: 0 157%;
 		}
 
 		& > div {
