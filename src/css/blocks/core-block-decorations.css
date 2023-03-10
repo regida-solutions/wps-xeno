@@ -28,15 +28,15 @@
 		--background-position: 1px 100%;
 
 		@media (min-width: 2000px) {
-			--background-position: 0 120%;
+			--background-position: 1px 120%;
 		}
 
 		@media (min-width: 2500px) {
-			--background-position: 0 135%;
+			--background-position: 1px 135%;
 		}
 
 		@media (min-width: 3000px) {
-			--background-position: 0 157%;
+			--background-position: 1px 157%;
 		}
 
 		& > div {
