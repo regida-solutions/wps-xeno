@@ -1,0 +1,62 @@
+.wp-block-cover {
+	&.is-style-angled-up {
+		clip-path: polygon(0 0, 100% 0, 100% 80%, 0 100%);
+	}
+
+	&.is-style-angled-down {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+	}
+
+	&.is-style-arrow-up {
+		clip-path: polygon(0 0, 100% 0, 100% 100%, 55% 80%, 0 100%);
+	}
+
+	&.is-style-arrow-down {
+		clip-path: polygon(0 0, 100% 0, 100% 80%, 55% 100%, 0 80%);
+	}
+
+	&.is-style-circle {
+		clip-path: circle(50%);
+	}
+
+	&.is-style-rounded {
+		clip-path: ellipse(60vw 70% at 50% 30%);
+	}
+
+	&.is-style-wave {
+		position: relative;
+		--background-position: 1px 100%;
+
+		@media (min-width: 2000px) {
+			--background-position: 0 120%;
+		}
+
+		@media (min-width: 2500px) {
+			--background-position: 0 135%;
+		}
+
+		@media (min-width: 3000px) {
+			--background-position: 0 157%;
+		}
+
+		& > div {
+			position: relative;
+			z-index: 2;
+		}
+
+		&::after {
+			background-image: url(data:image/svg+xml,%0A%3Csvg width='100%25' height='100%25' viewBox='0 0 1920 160' version='1.1' xmlns='http://www.w3.org/2000/svg' xmlns:xlink='http://www.w3.org/1999/xlink' xml:space='preserve' style='fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:1.41421;'%3E%3Cpath d='M1919.5,159.5l-1919,0c9,-8 18,-18 29,-25c133,-93 317,-117 460,-124l84,-2l110,3c117,5 233,23 351,39c96,13 198,23 295,29l46,2l190,-1c125,-9 261,-25 354,-80l0,159Z' style='fill:%23fff;fill-rule:nonzero;stroke=%23fff;'/%3E%3C/svg%3E);
+			background-position: var(--background-position);
+			background-repeat: no-repeat;
+			background-size: contain;
+			border: none;
+			bottom: 0;
+			content: "";
+			height: 100%;
+			left: 0;
+			position: absolute;
+			width: 100%;
+			z-index: 1;
+		}
+	}
+}
