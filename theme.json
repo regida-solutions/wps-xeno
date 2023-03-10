@@ -618,6 +618,13 @@
 			"postTypes": [
 				"page"
 			]
+		},
+		{
+			"name": "page-no-header-footer",
+			"title": "No header and footer",
+			"postTypes": [
+				"page"
+			]
 		}
 	],
 	"templateParts": [
