@@ -28,5 +28,5 @@ add_filter( 'gform_submit_button', __NAMESPACE__ . '\\form_submit_button', 10, 2
  */
 function form_submit_button( string $button, array $form ): string {
 	wp_enqueue_style( 'wp-block-button' );
-	return "<div class='wp-block-button'><button class='wp-block-button__link' id='gform_submit_button_{$form['id']}'><span>Submit</span></button></div>";
+	return "<div class='wp-block-buttons'><div class='wp-block-button'><button class='wp-block-button__link' id='gform_submit_button_{$form['id']}'><span>Submit</span></button></div></div>";
 }
