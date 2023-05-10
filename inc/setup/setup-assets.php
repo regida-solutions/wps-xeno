@@ -163,3 +163,20 @@ function editor_assets() {
 		}
 	}
 }
+
+add_filter( 'xeno_theme_setting_js', __NAMESPACE__ . '\\site_js_settings' );
+
+/**
+ * Make available site settings in js
+ *
+ * @param array $settings The site options settings.
+ */
+function site_js_settings( array $settings ): array {
+
+	/* Get theme settings */
+	$use_sticky = get_theme_mod( 'header_use_sticky', false );
+
+	$settings['useSticky'] = $use_sticky;
+
+	return $settings;
+}

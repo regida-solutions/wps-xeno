@@ -2,5 +2,6 @@
 	"style.css",
 	"editor.css",
 	"editor.js",
+	"site.js",
 	"editor-page.js"
 ]

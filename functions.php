@@ -42,4 +42,6 @@ require __DIR__ . '/inc/meta-fields/meta-fields-page.php';
 
 require __DIR__ . '/inc/setup/setup.php';
 
+require __DIR__ . '/inc/customizer/customizer.php';
+
 require __DIR__ . '/inc/blocks/wps-query-slider/template.php';

@@ -28,11 +28,12 @@ function add_body_classes( array $classes ): array {
  */
 function get_body_classes(): array {
 
-	$id        = get_the_ID();
-	$post_meta = get_post_meta( get_the_ID() );
+	$id = get_the_ID();
 
 	$reset_top_space    = get_post_meta( $id, '_reset_page_top_space', true );
 	$reset_bottom_space = get_post_meta( $id, '_reset_page_bottom_space', true );
+	$header_use_sticky  = get_theme_mod( 'header_use_sticky', false );
+	$menu_position      = get_theme_mod( 'main_menu_position', 'in_header' );
 
 	$classes = [];
 
@@ -43,7 +44,14 @@ function get_body_classes(): array {
 
 	if ( $reset_bottom_space && '' !== $reset_bottom_space ) {
 			$classes[] = 'reset-page-bottom-space';
+	}
 
+	if ( $header_use_sticky ) {
+		$classes[] = 'has-header-sticky';
+	}
+
+	if ( 'under_header' === $menu_position ) {
+		$classes[] = 'is-menu-under-header';
 	}
 
 	return $classes;
