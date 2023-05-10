@@ -32,8 +32,8 @@ function get_body_classes(): array {
 
 	$reset_top_space    = get_post_meta( $id, '_reset_page_top_space', true );
 	$reset_bottom_space = get_post_meta( $id, '_reset_page_bottom_space', true );
-	$header_use_sticky  = get_theme_mod( 'header_use_sticky', false );
-	$menu_position      = get_theme_mod( 'main_menu_position', 'in_header' );
+	$use_sticky         = get_theme_mod( 'use_sticky', false );
+	$sticky_position    = get_theme_mod( 'sticky_position', 'header' );
 
 	$classes = [];
 
@@ -46,12 +46,12 @@ function get_body_classes(): array {
 			$classes[] = 'reset-page-bottom-space';
 	}
 
-	if ( $header_use_sticky ) {
-		$classes[] = 'has-header-sticky';
+	if ( $use_sticky ) {
+		$classes[] = 'has-sticky';
 	}
 
-	if ( 'under_header' === $menu_position ) {
-		$classes[] = 'is-menu-under-header';
+	if ( 'under_header' === $sticky_position ) {
+		$classes[] = 'has-under-header-sticky';
 	}
 
 	return $classes;

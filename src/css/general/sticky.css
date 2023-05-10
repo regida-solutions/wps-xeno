@@ -1,38 +1,38 @@
-.has-header-sticky:not(.is-menu-under-header) .site-header,
-.has-header-sticky.is-menu-under-header .under-header {
+.has-sticky:not(.has-under-header-sticky) .site-header,
+.has-sticky.has-under-header-sticky .under-header {
 	position: sticky;
 	top: 0;
 	transition: all 350ms;
 	z-index: 999;
 }
 
-.sticky-scroll-header {
-	&:not(.is-menu-under-header) {
+.sticky-scroll-position {
+	&:not(.has-under-header-sticky) {
 		& .site-header {
 			transform: translateY(-100%);
 		}
 
-		&.show-scroll-header .site-header {
+		&.show-scroll-position .site-header {
 			transform: translateY(0%);
 		}
 
-		&.logged-in.show-scroll-header {
+		&.logged-in.show-scroll-position {
 			& .site-header {
 				top: 32px;
 			}
 		}
 	}
 
-	&.is-menu-under-header {
+	&.has-under-header-sticky {
 		& .under-header {
 			transform: translateY(-100%);
 		}
 
-		&.show-scroll-header .under-header {
+		&.show-scroll-position .under-header {
 			transform: translateY(0%);
 		}
 
-		&.logged-in.show-scroll-header {
+		&.logged-in.show-scroll-position {
 			& .under-header {
 				top: 32px;
 			}

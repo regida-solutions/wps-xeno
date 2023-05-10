@@ -34,7 +34,7 @@ function register( object $wp_customize ): void {
 
 	// SETTING.
 	$wp_customize->add_setting(
-		'main_menu_position',
+		'sticky_position',
 		[
 			'capability' => 'edit_theme_options',
 			'type'       => 'theme_mod',
@@ -43,14 +43,13 @@ function register( object $wp_customize ): void {
 	);
 
 	$wp_customize->add_control(
-		'main_menu_position',
+		'sticky_position',
 		[
 			'type'        => 'select',
 			'section'     => 'xeno_header_setup_settings',
-			'label'       => __( 'Select menu location', 'xeno' ),
-			'description' => __( 'Under header menu has Menu mega capability', 'xeno' ),
+			'label'       => __( 'Select sticky location', 'xeno' ),
 			'choices'     => [
-				'in_header'    => __( 'In header', 'xeno' ),
+				'header'    => __( 'Header', 'xeno' ),
 				'under_header' => __( 'Under header', 'xeno' ),
 			],
 		]
@@ -58,7 +57,7 @@ function register( object $wp_customize ): void {
 
 	// SETTING.
 	$wp_customize->add_setting(
-		'header_use_sticky',
+		'use_sticky',
 		[
 			'default'    => false,
 			'type'       => 'theme_mod',
@@ -67,11 +66,11 @@ function register( object $wp_customize ): void {
 	);
 
 	$wp_customize->add_control(
-		'header_use_sticky',
+		'use_sticky',
 		[
 			'type'        => 'checkbox',
-			'label'       => __( 'Use sticky header', 'xeno' ),
-			'description' => __( 'Make the header scroll with the page', 'xeno' ),
+			'label'       => __( 'Use sticky location', 'xeno' ),
+			'description' => __( 'Make location scroll with the page', 'xeno' ),
 			'priority'    => 10,
 			'section'     => 'xeno_header_setup_settings',
 		]

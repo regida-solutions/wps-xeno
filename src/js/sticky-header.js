@@ -7,20 +7,20 @@ const stickyHeader = () => {
 		top = 0;
 	}
 	if (prevY < top) {
-		document.body.classList.remove('show-scroll-header');
+		document.body.classList.remove('show-scroll-position');
 	} else {
-		document.body.classList.add('show-scroll-header');
+		document.body.classList.add('show-scroll-position');
 	}
 	if (top < 104) {
-		document.body.classList.remove('sticky-scroll-header');
+		document.body.classList.remove('sticky-scroll-position');
 	} else {
-		document.body.classList.add('sticky-scroll-header');
+		document.body.classList.add('sticky-scroll-position');
 	}
 
 	if (top < 150) {
-		document.body.classList.remove('started-scroll-header');
+		document.body.classList.remove('started-scroll-position');
 	} else {
-		document.body.classList.add('started-scroll-header');
+		document.body.classList.add('started-scroll-position');
 	}
 
 	prevY = top;
