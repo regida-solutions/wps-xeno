@@ -10,6 +10,5 @@
 
 	& a {
 		color: var(--wp--preset--color--base);
-		padding: 0.5rem 1rem;
 	}
 }
