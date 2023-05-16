@@ -174,7 +174,7 @@ add_filter( 'xeno_theme_setting_js', __NAMESPACE__ . '\\site_js_settings' );
 function site_js_settings( array $settings ): array {
 
 	/* Get theme settings */
-	$use_sticky = get_theme_mod( 'header_use_sticky', false );
+	$use_sticky = get_theme_mod( 'use_sticky', false );
 
 	$settings['useSticky'] = $use_sticky;
 

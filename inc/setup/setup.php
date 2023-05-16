@@ -16,3 +16,5 @@ require __DIR__ . '/setup-patterns.php';
 require __DIR__ . '/setup-body-classes.php';
 
 require __DIR__ . '/setup-gravity-forms.php';
+
+require __DIR__ . '/setup-updater.php';
