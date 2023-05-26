@@ -11,7 +11,6 @@
 
 declare( strict_types=1 );
 ?>
-
 <!-- wp:spacer {"height":"0"} -->
 <div style="height:0" aria-hidden="true" class="wp-block-spacer"></div>
 <!-- /wp:spacer -->

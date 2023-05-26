@@ -45,11 +45,11 @@ function register( object $wp_customize ): void {
 	$wp_customize->add_control(
 		'sticky_position',
 		[
-			'type'        => 'select',
-			'section'     => 'xeno_header_setup_settings',
-			'label'       => __( 'Select sticky location', 'xeno' ),
-			'choices'     => [
-				'header'    => __( 'Header', 'xeno' ),
+			'type'    => 'select',
+			'section' => 'xeno_header_setup_settings',
+			'label'   => __( 'Select sticky location', 'xeno' ),
+			'choices' => [
+				'header'       => __( 'Header', 'xeno' ),
 				'under_header' => __( 'Under header', 'xeno' ),
 			],
 		]

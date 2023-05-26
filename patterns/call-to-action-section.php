@@ -10,7 +10,6 @@
 
 declare( strict_types=1 );
 ?>
-
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"backgroundColor":"primary","className":"has-primary-background-color has-background has-global-padding is-layout-constrained call-to-action-section has-base-color has-text-color is-style-leaf"} -->
 <div class="wp-block-group has-primary-background-color has-background has-global-padding is-layout-constrained call-to-action-section has-base-color has-text-color is-style-leaf" style="padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large)"><!-- wp:paragraph {"align":"center","style":{"spacing":{"margin":{"bottom":"var:preset|spacing|tiny"}}}} -->
 	<p class="has-text-align-center" style="margin-bottom:var(--wp--preset--spacing--tiny)">LOREUM IPSUM</p>

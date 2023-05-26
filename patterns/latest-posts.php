@@ -9,7 +9,6 @@
 
 declare( strict_types=1 );
 ?>
-
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:columns -->
 	<div class="wp-block-columns"><!-- wp:column {"className":"is-style-leaf","layout":{"type":"constrained"}} -->

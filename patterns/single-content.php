@@ -9,7 +9,6 @@
 
 declare( strict_types=1 );
 ?>
-
 <!-- wp:group {"tagName":"div","layout":{"type":"constrained"}} -->
 <div class="wp-block-group"><!-- wp:cover {"useFeaturedImage":true,"dimRatio":90,"minHeight":400,"minHeightUnit":"px","customGradient":"linear-gradient(270deg,rgb(0,123,195) 0%,rgb(0,19,33) 100%)","contentPosition":"center center","isDark":false,"align":"wide","className":"is-style-angled","style":{"spacing":{"padding":{"top":"var:preset|spacing|huge","left":"var:preset|spacing|large","right":"var:preset|spacing|large"}}}} -->
 	<div class="wp-block-cover alignwide is-light is-style-angled" style="padding-top:var(--wp--preset--spacing--huge);padding-right:var(--wp--preset--spacing--large);padding-left:var(--wp--preset--spacing--large);min-height:400px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-90 has-background-dim has-background-gradient" style="background:linear-gradient(270deg,rgb(0,123,195) 0%,rgb(0,19,33) 100%)"></span><div class="wp-block-cover__inner-container"><!-- wp:columns -->

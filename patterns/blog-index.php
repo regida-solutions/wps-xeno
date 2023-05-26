@@ -9,7 +9,6 @@
 
 declare( strict_types=1 );
 ?>
-
 <!-- wp:group {"tagName":"main","className":"blogroll site-content","layout":{"type":"constrained"}} -->
 <main class="wp-block-group blogroll site-content"><!-- wp:query {"queryId":1,"query":{"perPage":4,"pages":0,"offset":0,"postType":"post","order":"desc","orderBy":"date","author":"","search":"","exclude":[],"sticky":"","inherit":true,"taxQuery":null,"parents":[]},"displayLayout":{"type":"flex","columns":2},"align":"wide","layout":{"type":"default"}} -->
 	<div class="wp-block-query alignwide"><!-- wp:post-template {"align":"wide"} -->

@@ -11,7 +11,6 @@
 
 declare( strict_types=1 );
 ?>
-
 <!-- wp:wps/grid {"align":"full","paddingVertical":"huge","paddingHorizontal":"","columnPadding":"large","columnGap":"normal","columnAlign":"wide","columnEqualHeight":true,"fullHeight":false,"contentCenter":false,"dimRatio":60,"focalPoint":{},"media":{},"backgroundBehaviour":"repeat","marginTop":"","className":"is-style-counted-grid-with-hover"} -->
 <!-- wp:wps/grid-column {"width":33} -->
 <!-- wp:wps/card -->

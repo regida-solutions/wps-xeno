@@ -11,7 +11,6 @@
 
 declare( strict_types=1 );
 ?>
-
 <!-- wp:group {"className":"post-meta-horizontal","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group post-meta-horizontal">
 	<!-- wp:post-author /-->

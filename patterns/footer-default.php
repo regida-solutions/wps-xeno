@@ -10,7 +10,6 @@
 
 declare( strict_types=1 );
 ?>
-
 <!-- wp:group {"style":{"spacing":{"padding":{"top":"var:preset|spacing|large","bottom":"var:preset|spacing|large"}}},"className":"has-global-padding is-layout-constrained site-footer"} -->
 <div class="wp-block-group has-global-padding is-layout-constrained site-footer" style="padding-top:var(--wp--preset--spacing--large);padding-bottom:var(--wp--preset--spacing--large)">
 <!-- wp:columns {"align":"wide"} -->
