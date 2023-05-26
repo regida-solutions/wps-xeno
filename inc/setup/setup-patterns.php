@@ -33,7 +33,6 @@ function register_pattern_category(): void {
 	] );
 }
 
-
 add_action( 'init', __NAMESPACE__ . '\\remove_default_patterns', 99 );
 
 /**

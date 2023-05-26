@@ -76,4 +76,3 @@ function register( object $wp_customize ): void {
 		]
 	);
 }
-
