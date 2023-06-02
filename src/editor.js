@@ -23,51 +23,57 @@ domReady(() => {
 			label: 'Highlighted',
 			isDefault: false,
 		});
+	});
 
-		// decorations
-		registerBlockStyle('core/cover', {
-			name: 'angled-up',
-			label: 'Angled up',
-			isDefault: false,
-		});
+	// decorations
+	registerBlockStyle('core/cover', {
+		name: 'angled-up',
+		label: 'Angled up',
+		isDefault: false,
+	});
 
-		registerBlockStyle('core/cover', {
-			name: 'angled-down',
-			label: 'Angled down',
-			isDefault: false,
-		});
+	registerBlockStyle('core/cover', {
+		name: 'angled-down',
+		label: 'Angled down',
+		isDefault: false,
+	});
 
-		registerBlockStyle('core/cover', {
-			name: 'arrow-up',
-			label: 'Arrow up',
-			isDefault: false,
-		});
+	registerBlockStyle('core/cover', {
+		name: 'arrow-up',
+		label: 'Arrow up',
+		isDefault: false,
+	});
 
-		registerBlockStyle('core/cover', {
-			name: 'arrow-down',
-			label: 'Arrow down',
-			isDefault: false,
-		});
+	registerBlockStyle('core/cover', {
+		name: 'arrow-down',
+		label: 'Arrow down',
+		isDefault: false,
+	});
 
-		registerBlockStyle('core/cover', {
-			name: 'circle',
-			label: 'Circle',
-			isDefault: false,
-		});
+	registerBlockStyle('core/cover', {
+		name: 'circle',
+		label: 'Circle',
+		isDefault: false,
+	});
 
-		registerBlockStyle('core/cover', {
-			name: 'rounded',
-			label: 'Rounded',
-			isDefault: false,
-		});
-		registerBlockStyle('core/cover', {
-			name: 'wave',
-			label: 'Wave',
-			isDefault: false,
-		});
+	registerBlockStyle('core/cover', {
+		name: 'rounded',
+		label: 'Rounded',
+		isDefault: false,
+	});
+	registerBlockStyle('core/cover', {
+		name: 'wave',
+		label: 'Wave',
+		isDefault: false,
 	});
 
 	/* Gravity styles */
+	registerBlockStyle('gravityforms/form', {
+		name: 'xeno-style',
+		label: 'Custom style',
+		isDefault: false,
+	});
+
 	registerBlockStyle('gravityforms/form', {
 		name: 'xeno-style',
 		label: 'Custom style',
