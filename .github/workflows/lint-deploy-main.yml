@@ -110,7 +110,6 @@ jobs:
                   rm -rf .git && echo .git "deleted"
                   rm -rf .github && echo .github "deleted"
                   rm -rf .husky && echo .husky "deleted"
-                  FILE=/build/editor.js && [ -f /build/editor.js ] && echo "$FILE exist." || echo "$FILE does not exist."
             - name: Prepare Package deploy package
               run: |
                   mkdir xeno

@@ -143,7 +143,7 @@ function editor_assets() {
 	}
 	// JavaScripts.
 	if ( 'page' === get_post_type() ) {
-		$editor_page_js_path = get_file_path( 'editor-page.js' );
+		$editor_page_js_path = get_file_path( 'editor-editor-page.js' );
 		if ( file_exists( $editor_page_js_path ) ) {
 			$script_deps_path    = get_file_path( 'editor.asset.php' );
 			$script_dependencies = file_exists( $script_deps_path ) ?
