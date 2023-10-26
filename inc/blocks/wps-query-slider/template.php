@@ -35,11 +35,11 @@ function render_image( array $attributes = [] ): string {
 /**
  * Item template
  *
- * @param string    $content Block content.
  * @param \WP_QUERY $slider_query Current Query.
  * @param array     $attributes Block attributes.
+ * @param string    $content Block content.
  */
-function slider_template( string $content = '', \WP_QUERY $slider_query, array $attributes = [] ): string {
+function slider_template( \WP_QUERY $slider_query, array $attributes = [], string $content = '' ): string {
 
 	$new_content = '';
 	$post_type   = ! empty( $attributes['query']['postType'] ) ? $attributes['query']['postType'] : 'post';
