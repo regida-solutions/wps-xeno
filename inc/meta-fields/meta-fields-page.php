@@ -37,7 +37,7 @@ function page_post_meta(): void {
 				'single'        => true,
 				'type'          => 'boolean',
 				'default'       => false,
-				'auth_callback' => function() { // phpcs:ignore NeutronStandard.Functions.TypeHint.NoReturnType
+				'auth_callback' => function () { // phpcs:ignore NeutronStandard.Functions.TypeHint.NoReturnType
 					return current_user_can( 'edit_posts' );
 				},
 			]
