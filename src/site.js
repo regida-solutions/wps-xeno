@@ -2,6 +2,7 @@
  * Internal dependencies
  */
 import stickyHeader from './js/sticky-header';
+import initFancybox from './js/init-fancybox';
 
 window.addEventListener('load', function () {
 	const { useSticky } = window.themeSettings;
@@ -20,4 +21,7 @@ window.addEventListener('load', function () {
 
 		window.addEventListener('scroll', throttle(stickyHeader, 20));
 	}
+
+	/* Add fancybox */
+	initFancybox();
 });
