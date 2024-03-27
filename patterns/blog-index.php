@@ -39,7 +39,7 @@ declare( strict_types=1 );
 
 		<!-- wp:query-pagination {"align":"wide","layout":{"type":"flex","justifyContent":"center"}} -->
 		<!-- wp:query-pagination-previous /-->
-
+		<!-- wp:query-pagination-numbers /-->
 		<!-- wp:query-pagination-next /-->
 		<!-- /wp:query-pagination --></div>
 	<!-- /wp:query --></main>
