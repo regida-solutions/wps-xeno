@@ -16,17 +16,12 @@ namespace Xeno\Setup\GravityForms;
  */
 add_filter( 'gform_required_legend', '__return_empty_string' );
 
-add_filter( 'gform_submit_button', __NAMESPACE__ . '\\form_submit_button', 10, 2 );
+add_filter( 'gform_submit_button', __NAMESPACE__ . '\\add_custom_css_classes', 10, 2 );
 
-/**
- * Change the submit button text.
- *
- * @param string $button The HTML markup for the submit button.
- * @param array  $form   The form object.
- *
- * @return string
- */
-function form_submit_button( string $button, array $form ): string {
-	wp_enqueue_style( 'wp-block-button' );
-	return "<div class='wp-block-buttons'><div class='wp-block-button'><button class='wp-block-button__link' id='gform_submit_button_{$form['id']}' onclick='gform.submission.handleButtonClick(this)'>{$form['button']['text']}</div></div>";
+function add_custom_css_classes( $button, $form ) { // phpcs:ignore
+	$fragment = \WP_HTML_Processor::create_fragment( $button );
+	$fragment->next_token();
+	$fragment->add_class( 'wp-block-button__link' );
+
+	return $fragment->get_updated_html();
 }
